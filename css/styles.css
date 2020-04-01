@@ -22,7 +22,7 @@ nav li {
   display: inline;
 }
 nav a:link, nav a:visited {
-  background-color: rgb(28, 209, 110);
+  background-color: maroon;
   color: gainsboro;
 }
 nav a:hover {
