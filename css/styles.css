@@ -16,3 +16,10 @@ nav ul {
 nav li {
   display: inline;
 }
+nav a:link, nav a:visited {
+  background-color: red;
+  color: white;
+}
+nav a:hover {
+  background-color: blue;
+}
