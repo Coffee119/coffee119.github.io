@@ -23,7 +23,6 @@ nav ul {
 }
 nav li {
   display: inline;
-  float: left;
 }
 nav a:link, nav a:visited {
   background-color: green;
