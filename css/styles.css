@@ -22,7 +22,7 @@ nav li {
   display: inline;
 }
 nav a:link, nav a:visited {
-  background-color: red;
+  background-color: maroon;
   color: white;
 }
 nav a:hover {
