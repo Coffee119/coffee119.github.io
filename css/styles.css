@@ -23,7 +23,7 @@ nav li {
 }
 nav a:link, nav a:visited {
   background-color: maroon;
-  color: white;
+  color: gainsboro;
 }
 nav a:hover {
   background-color: blue;
