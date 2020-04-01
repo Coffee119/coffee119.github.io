@@ -1,5 +1,7 @@
 body {
   background-color: lightseagreen;
+  margin: 0 auto;
+  width: 960px;
 }
 h1 {
   color: maroon;
