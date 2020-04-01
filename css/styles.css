@@ -1,12 +1,15 @@
 body {
-    background-color: lightseagreen;
-  }
-  h1 {
-    color: maroon;
-  }
-  h2 {
-    color: rgb(145, 145, 202);
-  }
-  p {
-    color: gainsboro;
-  }
+  background-color: lightseagreen;
+}
+h1 {
+  color: maroon;
+}
+h2 {
+  color: rgb(145, 145, 202);
+}
+p {
+  color: gainsboro;
+}
+nav ul {
+  list-style-type: none;
+}
