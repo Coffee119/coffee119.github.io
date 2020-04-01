@@ -4,11 +4,16 @@ body {
 h1 {
   color: maroon;
 }
-h2 {
-  color: rgb(145, 145, 202);
-}
 p {
   color: gainsboro;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: lime;
+  font-weight: bold;
+}
+a:hover {
+  color: black;
 }
 nav ul {
   list-style-type: none;
