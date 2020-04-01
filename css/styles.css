@@ -26,6 +26,10 @@ nav li {
 nav a:link, nav a:visited {
   background-color: green;
   color: gainsboro;
+  display: block;
+  width: 160px;
+  text-align: center;
+  padding: 10px 0;
 }
 nav a:hover {
   background-color: blue;
