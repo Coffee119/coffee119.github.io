@@ -2,11 +2,11 @@ body {
     background-color: lightseagreen
   }
   h1 {
-    color: rgb(149, 149, 185);
+    color: indianred;
   }
   h2 {
     color: rgb(145, 145, 202);
   }
   p {
-    color: red;
+    color: gainsboro;
   }
