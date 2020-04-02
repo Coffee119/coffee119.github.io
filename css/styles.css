@@ -46,3 +46,19 @@ header {
   padding-right: 20px;
   color: gainsboro;
 }
+.block {
+  background-color: lightseagreen;
+  width: 29%;
+  float: left;
+  margin: 2%;
+}
+.block h1 {
+  text-align: center;
+}
+footer {
+  padding: 0.05%;
+  color: gainsboro;
+  position: absolute;
+  bottom: 10px;
+  
+}
