@@ -52,7 +52,7 @@ header {
   margin: 5px;
   padding: 10px;
 }
-.block h1 {
+.block h1, h2, p {
   text-align: center;
 }
 footer {
