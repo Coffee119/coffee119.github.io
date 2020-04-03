@@ -1,7 +1,7 @@
 body {
   background-color: lightseagreen;
   margin: 0 auto;
-  width: 960px;
+  width: 910px;
 }
 h1 {
   color: maroon;
@@ -22,14 +22,13 @@ nav ul {
   padding: 0;
 }
 nav li {
-  
   float: left;
 }
 nav a:link, nav a:visited {
   background-color: SaddleBrown;
   color: gainsboro;
   display: block;
-  width: 160px;
+  width: 130px;
   text-align: center;
   padding: 10px 0;
 }
@@ -48,16 +47,14 @@ header {
 }
 .block {
   background-color: lightseagreen;
-  width: 29%;
+  width: 30%;
   float: left;
-  margin: 2%;
+  margin: 5px;
+  padding: 10px;
 }
 .block h1 {
   text-align: center;
 }
 footer {
-  padding: 0.05%;
   color: gainsboro;
-  position: absolute;
-  bottom: 10px;
 }
