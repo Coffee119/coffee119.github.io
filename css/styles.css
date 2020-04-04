@@ -7,7 +7,14 @@ h1 {
   color: maroon;
 }
 p {
-  color: gainsboro;
+  color: antiquewhite;
+}
+@font-face {
+  font-family: FinkHeavy;
+  src: url(font/FinkHeavy.ttf);
+}
+* {
+  font-family: FinkHeavy, Arial, Helvetica, sans-serif;
 }
 a:link, a:visited {
   text-decoration: none;
@@ -25,8 +32,8 @@ nav li {
   float: left;
 }
 nav a:link, nav a:visited {
-  background-color: SaddleBrown;
-  color: gainsboro;
+  background-color: chocolate;
+  color: antiquewhite;
   display: block;
   width: 130px;
   text-align: center;
@@ -36,14 +43,14 @@ nav a:hover {
   background-color: blue;
 }
 header {
-  background-image: url("../images/eten.jpg");
-  height: 90px;
+  background-image: url("../images/eten1.jpg");
+  height: 70px;
 }
  header h1 {
   color: rgba(256, 256, 256, .8);
   text-align: right;
   padding-right: 20px;
-  color: gainsboro;
+  color: antiquewhite;
 }
 .block {
   background-color: lightseagreen;
@@ -52,9 +59,45 @@ header {
   margin: 5px;
   padding: 10px;
 }
-.block h1, h2, p {
+.block h1, h3, p {
   text-align: center;
+  color: antiquewhite;
 }
 footer {
-  color: gainsboro;
+  color: antiquewhite;
+}
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: chocolate;
+}
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  width: 130px;
+  color: antiquewhite;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+}
+#navbar a:hover {
+  background-color: blue;
+  color: antiquewhite;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 910px;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }
