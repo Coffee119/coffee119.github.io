@@ -24,6 +24,9 @@ a:link, a:visited {
 a:hover {
   color: black;
 }
+a:active {
+  color: blue;
+}
 nav ul {
   list-style-type: none;
   padding: 0;
