@@ -1,5 +1,5 @@
 body {
-  background-color: lightseagreen;
+  background-color: cadetblue;
   margin: 0 auto;
   width: 910px;
 }
@@ -53,7 +53,7 @@ header {
   color: antiquewhite;
 }
 .block {
-  background-color: lightseagreen;
+  background-color: cadetblue;
   width: 30%;
   float: left;
   margin: 5px;
@@ -69,14 +69,14 @@ footer {
 /* Style the navbar */
 #navbar {
   overflow: hidden;
-  background-color: chocolate;
+  background-color: darkkhaki;
 }
 /* Navbar links */
 #navbar a {
   float: left;
   display: block;
   width: 130px;
-  color: antiquewhite;
+  color: maroon;
   text-align: center;
   padding: 10px 0;
   text-decoration: none;
