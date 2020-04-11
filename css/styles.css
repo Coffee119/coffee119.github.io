@@ -93,6 +93,9 @@ footer {
   background-color: maroon;
   color: antiquewhite;
 }
+.active_link {
+background-color: #a8a35e;
+}
 /* Page content */
 .content {
   padding: 16px;
