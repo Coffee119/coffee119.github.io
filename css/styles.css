@@ -3,6 +3,11 @@ body {
   margin: 0 auto;
   width: 910px;
 }
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
 h1 {
   color: maroon;
 }
@@ -38,7 +43,7 @@ nav a:link, nav a:visited {
   background-color: chocolate;
   color: antiquewhite;
   display: block;
-  width: 130px;
+  width: 10%;
   text-align: center;
   padding: 10px 0;
 }
@@ -97,7 +102,7 @@ footer {
 .sticky {
   position: fixed;
   top: 0;
-  width: 910px;
+  /* width: 910px; */
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
