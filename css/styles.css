@@ -3,11 +3,6 @@ body {
   margin: 0 auto;
   width: 910px;
 }
-.container {
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
-}
 h1 {
   color: #D3ECED;
 }
@@ -21,27 +16,15 @@ p {
 * {
   font-family: FinkHeavy, Arial, Helvetica, sans-serif;
 }
-a:link, a:visited {
-  text-decoration: none;
-  color: #D3ECED;
-  font-weight: bold;
-}
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-nav li {
-  float: left;
-}
 header {
-  background-image: url("../images/eten1.jpg");
-  height: 70px;
+  background-image: url("../images/eten3.jpg");
+  height: 80px;
 }
  header h1 {
-  color: rgba(256, 256, 256, .8);
-  text-align: right;
+  text-align: left;
+  /* padding-top: 2px; */
   padding-right: 20px;
-  color: #416C6E;
+  color: #416c6e;
 }
 .block {
   background-color: cadetblue;
@@ -62,6 +45,10 @@ footer {
   overflow: hidden;
   background-color: #416C6E;
 }
+a {
+  color: #D3ECED;
+  text-decoration: none;
+}
 /* Navbar links */
 #navbar a {
   float: left;
@@ -71,6 +58,8 @@ footer {
   text-align: center;
   padding: 10px 0;
   text-decoration: none;
+  font-weight: bold;
+
 }
 #navbar a:hover {
   background-color: #D3ECED;
@@ -78,21 +67,41 @@ footer {
 }
 .active_link {
   background-color: #D3ECED;
-  color: #416C6E
+  color: #416C6E;
 }
 /* Page content */
 .content {
   padding: 16px;
 }
-
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
   top: 0;
   /* width: 910px; */
 }
-
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+}
+/* Recept opmaak in grid */
+#grid {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100%;
+  grid-template-areas:
+      "aside section";
+}
+.ingredienten h3, ul {
+  grid-area: aside;
+  color: #416C6E;
+  text-align: left;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+.bereiden h3, p {
+  grid-area: section;
+  color: #416C6E;
+  text-align: left;
 }

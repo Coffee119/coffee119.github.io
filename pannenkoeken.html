@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Project Learning the basics
+    </title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+ <header>
+  <h1>Recepten Huize Borgman</h1>
+</header>
+    <div id="navbar">
+      <a href="index.html">Home</a>
+      <a href="ontbijt.html" class="active_link">Ontbijt</a>
+      <a href="lunch.html">Lunch</a>
+      <a href="hoofdgerechten.html">Hoofdgerecht</a>
+      <a href="voorgerecht.html">Voorgerecht</a>
+      <a href="nagerecht.html">Nagerecht</a>
+      <a href="salade-soep.html">Salade / Soep</a>
+    </div>
+<body>
+
+<H1>Pannenkoeken (basisrecept)</H1>
+<img src="images/ontbijt/pannenkoeken.jpg" width="275" height="183" alt="">
+
+<div id="grid">
+
+<aside class="ingredienten">
+<h3>Ingredienten</h3>
+<ul>
+  <li>250 g bloem (of pannenkoekmeel)</li>
+  <li>500 ml melk</li>
+  <li>2 eieren</li>
+  <li>snufje zout</li>
+  <li>boter voor het bakken</li>
+</ul>
+</aside>
+
+<section class="bereiden">
+<h3>Bereiden</h3>
+
+<p>Doe de bloem en een snufje zout in een zeef boven een grote kom en tik tegen de zeef tot alle bloem erdoor gevallen is.</p>
+
+<p>Tik elk ei even op de rand van de kom, hou met 2 handen vast en breek dan open boven de kom. Stukjes eierschaal kun je er het makkelijkst uitvissen met een groot stuk eierschaal.</p>
+
+<p>Giet de melk erbij. Klop het met de mixer goed glad tot alle klontjes eruit zijn. Het pannenkoekenbeslag moet vloeibaar zijn. Doe eventueel een extra scheutje melk erbij. Extra luchtig beslag krijg je in de blender of met de staafmixer.</p>
+
+<p>Neem een koekenpan met een anti-aanbaklaag en laat die goed heet worden op het vuur. Laat een klontje boter erin smelten.</p>
+
+<p>Giet met een soepopscheplepel wat beslag in het midden van de pan en draai de pan dan snel rond tot de hele bodem bedekt is met beslag. Bak op niet al te hoog vuur tot de bovenkant van de pannenkoek droog is en de onderkant lichtbruin. Draai de pannenkoek om met een spatel en bak de andere kant. Bak zo verder tot al het beslag op is.</p>
+</section>
+
+</div>
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+
+</body>
+</html>
+
