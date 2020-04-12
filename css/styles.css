@@ -87,7 +87,7 @@ a {
 #grid {
   margin: 0;
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 25% 75%;
   grid-template-rows: 100%;
   grid-template-areas:
       "aside section";
@@ -96,7 +96,7 @@ a {
   grid-area: aside;
   color: #416C6E;
   text-align: left;
-  padding: 0;
+  /* padding: 0; */
   word-wrap: break-word;
 }
 
