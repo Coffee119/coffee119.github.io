@@ -9,10 +9,10 @@ body {
   overflow: hidden;
 }
 h1 {
-  color: maroon;
+  color: #D3ECED;
 }
 p {
-  color: antiquewhite;
+  color: #416C6E;
 }
 @font-face {
   font-family: FinkHeavy;
@@ -23,14 +23,8 @@ p {
 }
 a:link, a:visited {
   text-decoration: none;
-  color: lime;
+  color: #D3ECED;
   font-weight: bold;
-}
-a:hover {
-  color: black;
-}
-a:active {
-  color: blue;
 }
 nav ul {
   list-style-type: none;
@@ -38,17 +32,6 @@ nav ul {
 }
 nav li {
   float: left;
-}
-nav a:link, nav a:visited {
-  background-color: chocolate;
-  color: antiquewhite;
-  display: block;
-  width: 10%;
-  text-align: center;
-  padding: 10px 0;
-}
-nav a:hover {
-  background-color: blue;
 }
 header {
   background-image: url("../images/eten1.jpg");
@@ -58,7 +41,7 @@ header {
   color: rgba(256, 256, 256, .8);
   text-align: right;
   padding-right: 20px;
-  color: antiquewhite;
+  color: #416C6E;
 }
 .block {
   background-color: cadetblue;
@@ -69,32 +52,33 @@ header {
 }
 .block h1, h3, p {
   text-align: center;
-  color: antiquewhite;
+  color: #416C6E;
 }
 footer {
-  color: antiquewhite;
+  color: #416C6E;
 }
 /* Style the navbar */
 #navbar {
   overflow: hidden;
-  background-color: darkkhaki;
+  background-color: #416C6E;
 }
 /* Navbar links */
 #navbar a {
   float: left;
   display: block;
   width: 130px;
-  color: maroon;
+  /* color: #D3ECED; */
   text-align: center;
   padding: 10px 0;
   text-decoration: none;
 }
 #navbar a:hover {
-  background-color: maroon;
-  color: antiquewhite;
+  background-color: #D3ECED;
+  color: #416C6E;
 }
 .active_link {
-background-color: #a8a35e;
+  background-color: #D3ECED;
+  color: #416C6E
 }
 /* Page content */
 .content {
